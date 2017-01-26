@@ -837,6 +837,7 @@ public class AddressBook {
      * Returns the given person's name
      *
      * @param person whose name you want
+     * @return person name
      */
     private static String getNameFromPerson(String[] person) {
         return person[PERSON_DATA_INDEX_NAME];
@@ -846,6 +847,7 @@ public class AddressBook {
      * Returns given person's phone number
      *
      * @param person whose phone number you want
+     * @return person phone number
      */
     private static String getPhoneFromPerson(String[] person) {
         return person[PERSON_DATA_INDEX_PHONE];
@@ -855,6 +857,7 @@ public class AddressBook {
      * Returns given person's email
      *
      * @param person whose email you want
+     * @return person email
      */
     private static String getEmailFromPerson(String[] person) {
         return person[PERSON_DATA_INDEX_EMAIL];
